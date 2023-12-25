@@ -74,6 +74,6 @@ if __name__ == '__main__':
     data_path = 'data/news/label_data.pkl'
     train_path = 'data/train'
     test_path = 'data/test'
-    train_num = 5
+    train_num = 9
     test_num = 10
     process_data(data_path, train_path, train_num, test_path, test_num)
