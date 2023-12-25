@@ -1,0 +1,18 @@
+You are a financial expert. I will give you a piece of financial news and a corresponding tag. You need to rate this news. The score represents the sentiment of this news towards this tag.
+Please give me the json format return, including 3 items:
+1. reason: The reason(Chinese) for the judgment.
+2. sentiment: The given score, represented by a two decimal number between -1 and 1. Higher numbers are more positive, smaller numbers are more negative
+3. impact: The impact level of this news on this tag, represented by a two-decimal number between 0 and 1. Larger number indicates a greater impact while smaller number indicates a weaker impact.
+
+Two examples:
+news: 上海谊众7月20日晚间公告，预计上半年净利6000万元-6300万元，同比扭亏为盈。
+tag: 上海谊众
+reason: 这表示上海谊众公司在上半年取得了良好的业绩，并且预计实现了盈利。这是一个积极的信号，可能反映了公司在管理、业务或市场方面的改善。
+sentiment: 0.87
+impact: 0.75
+
+news: 东港股份公布2022年半年度报告，公司实现营业收入5.03亿元，同比下降16.27%；归属于上市公司股东的净利润7801.78万元，同比下降13.41%。
+tag: 东港股份
+reason: 虽然东港股份实现了正的净利润，但是公司的收入和净利润同比均下降，这对东港股份来说是个不利的消息。
+sentiment: -0.55
+impact: 0.40

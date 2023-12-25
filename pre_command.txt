@@ -1,0 +1,3 @@
+pip install transformers==4.32.0 accelerate==0.25.0 tiktoken einops transformers_stream_generator==0.0.4 scipy modelscope optimum==1.12.0 peft==0.6.2 deepspeed==0.12.4 cohere py-cpuinfo psutil==5.9.6 torch==2.1.1 pandas==2.1.3
+conda install mpi4py
+pip install flash-attn --no-build-isolation
