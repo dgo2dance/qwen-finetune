@@ -7,12 +7,12 @@ import shutil
 
 def process_data(data_path, train_path, train_num, test_path, test_num):
     """
-
-    :param data_path:
-    :param train_path:
-    :param train_num:
-    :param test_path:
-    :param test_num:
+    将标注数据分割成训练集和测试集
+    :param data_path: 标注数据的路径
+    :param train_path: 训练文件的保存路径
+    :param train_num: 训练文件的数量
+    :param test_path: 测试文件的保存路径
+    :param test_num: 测试文件的数量
     :return:
     """
     chunk_num = train_num + 1
